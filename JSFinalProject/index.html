@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <header>
+        <h1> Different Games </h1>
+        <img id="headerImg" src="imgs/controller.jpg" alt="Image of controller">
+    </header>
+</head>
+<body>
+    <main>
+        <h1>Game Gallery</h1>
+        <p id="displayText">Mouse over a game to see what game it is.</p>
+        <div id="gameDisplay">
+            
+        </div>
+        <div class="flex">
+            <div class="flexImg">
+                <img  onfocus = "displayGame(this)" onblur = "displayLeave()" onmouseover="displayGame(this)" onmouseleave ="displayLeave()" tabindex = "0" src = "imgs/Battlefield.jpg" alt="Battlefield">
+            </div>
+            <div class="flexImg">
+                <img  onfocus = "displayGame(this)" onblur = "displayLeave()" onmouseover="displayGame(this)" onmouseleave ="displayLeave()" tabindex = "0" src = "imgs/COD.jpg" alt="Call of Duty">
+            </div>
+            <div class="flexImg">
+                <img  onfocus = "displayGame(this)" onblur = "displayLeave()" onmouseover="displayGame(this)" onmouseleave ="displayLeave()" tabindex = "0" src = "imgs/CS2.jpg" alt="Counterstrike">
+            </div>
+            <div class="flexImg">
+                <img  onfocus = "displayGame(this)" onblur = "displayLeave()" onmouseover="displayGame(this)" onmouseleave ="displayLeave()" tabindex = "0" src = "imgs/Deadspace.jpg" alt="Deadspace">
+            </div>
+            <div class="flexImg">
+                <img  onfocus = "displayGame(this)" onblur = "displayLeave()" onmouseover="displayGame(this)" onmouseleave ="displayLeave()" tabindex = "0" src = "imgs/Deltaforce.jpg" alt="Deltaforce">
+            </div>
+            <div class="flexImg">
+                <img  onfocus = "displayGame(this)" onblur = "displayLeave()" onmouseover="displayGame(this)" onmouseleave ="displayLeave()" tabindex = "0" src = "imgs/Doom.jpg" alt="Doom">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
